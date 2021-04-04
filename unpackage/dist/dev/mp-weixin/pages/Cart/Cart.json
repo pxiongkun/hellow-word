@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#014343",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "Cart-u-waterfall-left": "/pages/Cart/Cart-u-waterfall-left",
+    "Cart-u-waterfall-right": "/pages/Cart/Cart-u-waterfall-right",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box"
+  }
+}

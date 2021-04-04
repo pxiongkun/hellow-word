@@ -1,0 +1,141 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white"  ,//状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+		}
+	    ,{
+            "path" : "components/header-bar/header-bar",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/tabber/tabber",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/Cart/Cart",
+            "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white" , //状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+        }
+		,{
+		    "path" : "pages/classification/classification",
+		    "style" : {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white"  ,//状态栏字体颜色
+				"enablePullDownRefresh":true//开启下拉刷新
+			}
+		}
+		,{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white"  ,//状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : {
+				"navigationBarTitleText": "登陆",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"black" , //状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+		},
+		{
+			"path" : "pages/login/register",
+			"style" : {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white" , //状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+		},
+		{
+			"path" : "pages/ceshiuview/ceshi",
+			"style" : {
+				"navigationBarTitleText": "uview测试",
+				"navigationBarBackgroundColor":"#014343",
+				"navigationBarTextStyle":"white" , //状态栏字体颜色
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false    //去掉当前页的顶部导航栏
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "navigationStyle":"custom"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "white",//底部颜色
+		"color": "rgb(153, 153, 153)",//字体颜色
+		"selectedColor": "rgb(10, 4, 4)",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabber-img/homeWx.png",
+				"selectedIconPath": "static/tabber-img/homeWxh.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"iconPath": "static/tabber-img/goShoppingWx.png",
+				"selectedIconPath": "static/tabber-img/goShoppingWxh.png",
+				"text": "全部分类"
+			},
+			{
+				"pagePath": "pages/Cart/Cart",
+				"iconPath": "static/tabber-img/shoppingWx.png",
+				"selectedIconPath": "static/tabber-img/shoppingWxh.png",
+				"text":"购物车"
+				
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabber-img/myWx.png",
+				"selectedIconPath": "static/tabber-img/myWxh.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "uview测试",
+  "navigationBarBackgroundColor": "#014343",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper"
+  }
+}

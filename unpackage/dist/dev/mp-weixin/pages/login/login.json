@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "登陆",
+  "navigationBarBackgroundColor": "#014343",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}
